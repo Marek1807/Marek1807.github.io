@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by Marek1807 (http://jsbin.com/ciwigan/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Marekin ikärobotti</title>
+</head>
+<body>
+<script>
+var sukupuoli= prompt('Oletko mies vai nainen(älä vastaa virkeellä)?')
+var age = +prompt('Miten vanha olet?');
+if ((age => 0)&&(age <= 3)) {
+alert('Olet vauva');
+} else if ((age => 4)&&(age <= 12)) {
+ alert('Olet lapsi');
+} else if ((age => 13)&&(age <= 17)) {
+  alert('Olet teini ikäinen.');
+} else if ((age => 18 )&&(age <= 39)) {
+  alert('Olet nuori '+ sukupuoli);
+} else if ((age => 40)&&(age <= 69)) {
+  alert('Olet jo aikuinen mutta tunnet itsesi 18 vuotiaaksi');
+} else if ((age => 70)&&(age <= 100)) {
+  alert('Olet aika vanha ja haluat olla taas lapsi.');
+} else if ((age => 100)&&(age < 99999999999999999999999999999)){
+  alert('Älä huijaa minua! Tiedän että olet nuorempi!');
+}
+  </script>
+   <div> 
+     <h1>Minun ikärobotti
+     </h1>
+       <div> <h3>Tämä sivusto on tehty ihan vain huvin ja minun taitojen testauksen vuoksi.
+        </h3>
+         </div>
+          <p>Lisätietoja:
+           <br>
+      Kun avaat tämän sivuston sinulta kysytään miten vanha olet. Sinun pitäisi vastata 
+      siihen numerona muuten tämä ei toimi. Kone vastaa antamasi numeron perusteella oletko lapsi
+      vai aikuinen jne. Jos etanna numeroa kone sanoo että olet vauva koska kun et anna numeroa kone tajuaa sen 
+      kun nolla ja vastaa että olet vauva. Jos kone ei kysy, päivitä sivusto.
+              <em><br>
+      Kiitos että kävit tässä sivustossa
+                </br></em>. 
+             <br>
+            <br>
+        
+           </br>
+          <em>Tekijä: Marek Pinter
+         </em>
+        </br> 
+       </br>
+      <br>
+     <h3>Jos jää kysyttävää, kysykää!
+     </h3> 
+   <h2>Minun sähköposti: marekpinter4@gmail.com
+   </h2>
+  </br>
+  </p>
+  </div>
+  
+
+
+
+
+
+</body>
+</html>
